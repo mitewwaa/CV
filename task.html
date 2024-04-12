@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./task.css" />
+
+    <script src="./task.js" defer></script>
+</head>
+
+<body id="root">
+    <header id="header">
+        <nav id="nav">
+            <img src="images/m2.svg" alt="logo" id="logo">
+            <ul class="list header">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><button id="change-theme"><i class="fa fa-moon-o" aria-hidden="true"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="home">
+            <p class="quote">
+                The only thing we know about the future is that it will be different.<br>
+                <small>Peter Drucker</small>
+            </p>
+        </section>
+        <section id="about">
+            <div class="speech-container">
+                <img src="images/pic1.png" alt="Picture of Hilda Miteva" id="pic">
+                <div class="speech-bubble">
+                    <p id="introduction" class=" scale-up-center">
+                        <br>
+                        <strong>Hey there, curious minds!&#128075;</strong> I'm Hilda Miteva,<br>
+                        I love exploring information systems, solving problems, and learning new things. <br> 
+                        I'm great at understanding complex stuff and working with teams. <br>
+                        I'm also into coding and chatting. <br>
+                        I'm excited to jump into the tech world and do cool stuff!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="title">Education <i class="skill-icon">🎓</i></h2>
+            <ul class="list">
+                <!-- <li>
+                    <h3>
+                        Foreign language high school “Akademic Lyudmil Stoqnov” -
+                        Blagoevgrad ,Bulgaria
+                    </h3>
+                    <h4>
+                        Secondary education in English, German, IT <br />
+                        Sep, 2015-Jun, 2020
+                    </h4>
+                </li>
+                <li>
+                    <h3>Sofia University "St. Kliment Ohridski" - Sofia , Bulgaria</h3>
+                    <h4>
+                        Bachelor's degree in Information Systems<br />
+                        Ongoing from Oct,2021
+                    </h4>
+                </li> -->
+            </ul>
+        </section>
+        <section id="skills">
+            <section id="languages">
+                <h2 class="title">Languages</h2>
+                <ul class="list">
+                    <li><i class="fi fi-bg"></i> Bulgarian (Native)</li>
+                    <li><i class="fi fi-gb"></i> English (Intermediate)</li>
+                    <li><i class="fi fi-de"></i> German (Basics)</li>
+                </ul>
+            </section>
+            <section id="soft-skills">
+                <h2 class="title">Soft skills</h2>
+                <ul class="list">
+                    <li><span class="skill-icon">🔑</span>Problem solving</li>
+                    <li><span class="skill-icon">🌟</span>Quick learner</li>
+                    <li><span class="skill-icon">🤝</span>Highly responsible and reliable</li>
+                    <li><span class="skill-icon">👥</span>Teamwork skills</li>
+                    <li><span class="skill-icon">😊</span>Polite and friendly</li>
+                </ul>
+            </section>
+            <section id="computer-skills">
+                <h2 class="title">Computer skills</h2>
+                <ul class="list">
+                    <li><i class="devicon-cplusplus-plain"></i>C++</li>
+                    <li><i class="devicon-oracle-plain"></i>PL/SQL</li>
+                    <li><i class="devicon-html5-plain"></i>HTML</li>
+                    <li><i class="devicon-css3-plain"></i>CSS</li>
+                    <li><i class="devicon-javascript-plain"></i>JavaScript</li>
+                    <li><i class="devicon-java-plain"></i>JAVA</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="contacts">
+            <ul class="list">
+                <li><a href="https://github.com/mitewwaa" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>mitewwaa@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/hilda-miteva-7a015617b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+        <h4 class="title footer">© <span id="current-year"></span> Hilda Miteva</h4>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "education": [
+      {
+        "institution": "Foreign language high school 'Akademic Lyudmil Stoqnov'",
+        "location": "Blagoevgrad, Bulgaria",
+        "description": "Secondary education in English, German, IT",
+        "duration": "Sep, 2015 - Jun, 2020"
+      },
+      {
+        "institution": "Sofia University 'St. Kliment Ohridski'",
+        "location": "Sofia, Bulgaria",
+        "description": "Bachelor's degree in Information Systems",
+        "duration": "Ongoing from Oct, 2021"
+      }
+    ]
+  }
